@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: 
+  data:
+    elasticsearch:
+      properties:
+        http.enabled: true
+        path.data: ./target/data
+  h2:
+    console:
+      enabled: true      
+      
+security:
+  basic:
+    enabled: false
